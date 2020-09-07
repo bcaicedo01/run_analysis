@@ -21,5 +21,5 @@ It then binds both sets and extract the desired variables for each subject, acti
 
 Finally, it extracts the required summary data per subject and activity building a frame which contains the means for each measurement and labels them properly.
 
-In the end, it writes a .csv file containing the aforementioned summary.  The name of the resulting file should be tidy_data.csv and it should  be written in 
+In the end, it writes a .txt file containing the aforementioned summary.  The name of the resulting file should be tidy_data.txt and it should  be written in 
 the current directory.
