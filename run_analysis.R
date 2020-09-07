@@ -48,5 +48,5 @@ for (j in seq_along(unique(globalset$sujeto))){
               }
 }
 colnames(resumen)<-c("sujeto","actividad","desc",names(globalset)[3:68])
-write.csv(resumen,"tidy_data.csv",row.names=FALSE)
+write.table(resumen,"tidy_data.txt",row.name=FALSE)
 
