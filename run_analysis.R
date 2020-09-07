@@ -13,7 +13,7 @@ features<-c("sujeto","actividad",features$V2)
 ##read activity labels
 actividad<-read.csv("activity_labels.txt", sep=" ", header=FALSE)
 ##assign an adequate label for each column of the data frame just read
-actividad<-rename(actividad, c("V1"="actividad","V2"="desc"))
+actividad<-rename(actividad,actividad=V1,desc=V2)
 
 ##read the testset, first by subject, then by activity and
 ## then for each of the measurements
